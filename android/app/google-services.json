@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "749005423454",
+    "firebase_url": "https://vstdb-c5a25-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "vstdb-c5a25",
+    "storage_bucket": "vstdb-c5a25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749005423454:android:a65cd0f15613b4545345cf",
+        "android_client_info": {
+          "package_name": "com.example.vivaskintech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749005423454-lj6kgkao5q0mt7h4g1ga77kernpd4pjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZiXfkUAnqjhMUFab69oWmXWcd5_ZrJkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749005423454-lj6kgkao5q0mt7h4g1ga77kernpd4pjh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "749005423454-un1betlsonpkncaacoikkbep2i91rj7l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vivaskintech.vst"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749005423454:android:fe3378e9ad43a6535345cf",
+        "android_client_info": {
+          "package_name": "com.vivaskintech.vst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749005423454-lj6kgkao5q0mt7h4g1ga77kernpd4pjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZiXfkUAnqjhMUFab69oWmXWcd5_ZrJkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749005423454-lj6kgkao5q0mt7h4g1ga77kernpd4pjh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "749005423454-un1betlsonpkncaacoikkbep2i91rj7l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vivaskintech.vst"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
