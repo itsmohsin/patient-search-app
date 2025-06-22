@@ -46,35 +46,35 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB7RGTXa9G2BUBgVDLQKKPRfPRNN7igsYs',
-    appId: '1:749005423454:web:8b14c788cab4c5c55345cf',
-    messagingSenderId: '749005423454',
-    projectId: 'vstdb-c5a25',
-    authDomain: 'vstdb-c5a25.firebaseapp.com',
-    databaseURL: 'https://vstdb-c5a25-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'vstdb-c5a25.appspot.com',
-    measurementId: 'G-3KX2SF5Z6M',
+  static FirebaseOptions web = FirebaseOptions(
+    apiKey: dotenv.env['FIREBASE_API_KEY'] ?? '',
+    appId: dotenv.env['FIREBASE_APP_ID'] ?? '',
+    messagingSenderId: dotenv.env['FIREBASE_MESSAGING_SENDER_ID'] ?? '',
+    projectId: dotenv.env['FIREBASE_PROJECT_ID'] ?? '',
+    authDomain: dotenv.env['FIREBASE_AUTH_DOMAIN'] ?? '',
+    databaseURL: dotenv.env['FIREBASE_DATABASE_URL'] ?? '',
+    storageBucket: dotenv.env['FIREBASE_STORAGE_BUCKET'] ?? '',
+    measurementId: dotenv.env['FIREBASE_MEASUREMENT_ID'] ?? '',
   );
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDZiXfkUAnqjhMUFab69oWmXWcd5_ZrJkQ',
-    appId: '1:749005423454:android:a65cd0f15613b4545345cf',
-    messagingSenderId: '749005423454',
-    projectId: 'vstdb-c5a25',
-    databaseURL: 'https://vstdb-c5a25-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'vstdb-c5a25.appspot.com',
+  static FirebaseOptions android = FirebaseOptions(
+    apiKey: dotenv.env['FIREBASE_API_KEY'] ?? '',
+    appId: dotenv.env['FIREBASE_APP_ID'] ?? '',
+    messagingSenderId: dotenv.env['FIREBASE_MESSAGING_SENDER_ID'] ?? '',
+    projectId: dotenv.env['FIREBASE_PROJECT_ID'] ?? '',
+    databaseURL: dotenv.env['FIREBASE_DATABASE_URL'] ?? '',
+    storageBucket: dotenv.env['FIREBASE_STORAGE_BUCKET'] ?? '',
   );
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCgiMF1irz8skAQnRSr1k18mIkmH9BgCPU',
-    appId: '1:749005423454:ios:2f9ab275b18a9fd85345cf',
-    messagingSenderId: '749005423454',
-    projectId: 'vstdb-c5a25',
-    databaseURL: 'https://vstdb-c5a25-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'vstdb-c5a25.appspot.com',
-    iosClientId: '749005423454-tlaqed4uar8n4folh3b8j8q64fu7jfra.apps.googleusercontent.com',
-    iosBundleId: 'com.example.vivaskintech',
+  static FirebaseOptions ios = FirebaseOptions(
+    apiKey: dotenv.env['FIREBASE_API_KEY'] ?? '',
+    appId: dotenv.env['FIREBASE_APP_ID'] ?? '',
+    messagingSenderId: dotenv.env['FIREBASE_MESSAGING_SENDER_ID'] ?? '',
+    projectId: dotenv.env['FIREBASE_PROJECT_ID'] ?? '',
+    databaseURL: dotenv.env['FIREBASE_DATABASE_URL'] ?? '',
+    storageBucket: dotenv.env['FIREBASE_STORAGE_BUCKET'] ?? '',
+    iosClientId: dotenv.env['FIREBASE_IOS_CLIENT_ID'] ?? '',
+    iosBundleId: dotenv.env['FIREBASE_IOS_BUNDLE_ID'] ?? '',
   );
   
 }
