@@ -59,7 +59,23 @@ Check out the **live web version** of the **Patient Search App** hosted on Fireb
 
 To run the app locally, follow these steps:
 
-### 1. **Clone the Repository**
-```bash
-git clone https://github.com/itsmohsin/patient-search-app.git
-cd patient-search-app
+1. Clone the Repository:
+    ```bash
+    git clone https://github.com/your-username/patient-search-app.git
+    cd patient-search-app
+    ```
+
+2. Update Firebase Configuration:
+    - Open `firebase_options.dart` and replace the credentials with your own Firebase project details.
+
+3. Install Dependencies:
+    ```bash
+    flutter pub get
+    ```
+
+4. Run the App:
+    ```bash
+    flutter run
+    ```
+
+---
