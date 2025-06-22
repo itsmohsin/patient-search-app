@@ -18,9 +18,9 @@ Here are some screenshots showcasing the app's features:
 
 ## 🚀 **Project Overview**
 
-The **Patient Search App** is a **Flutter** application designed to improve the patient search process at **Viva Skintech**. This app replaces the outdated, Excel-based system with a streamlined, faster, and more efficient method of searching and accessing patient records by **ID**, **name**, or **phone number**.
+The **Patient Search App** is a mobile application built with **Flutter** and **Firebase Firestore** to replace the existing Excel-based patient search system at **Viva Skintech**. During the transition from an old CRM system to a new CRM, patient records were manually downloaded in Excel format from the old CRM. However, this method was slow and inefficient, as it took significant time to load and search through the data.
 
-The app is deployed on **Firebase Hosting**, providing a fully-functional **web version** for quick and easy access from any browser.
+To address this challenge, I developed this app as an interim solution. The app enables healthcare professionals to quickly and efficiently search and retrieve patient data, eliminating the time-consuming process of working with Excel sheets. The app stores and manages patient data in **Firestore**, providing a faster and more reliable way to access patient records during the CRM migration period.
 
 ---
 
