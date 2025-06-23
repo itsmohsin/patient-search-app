@@ -1,20 +1,4 @@
 # Patient Search App
-<!--
-## 🖼 **Screenshots**
-
-Here are some screenshots showcasing the app's features:
-
-- **Search Screen**: The user can search for patients by ID, Name, or Phone Number.
-  ![Search Screen](assets/screenshots/search_screen.png)
-
-- **Patient Details Screen**: View detailed patient information.
-  ![Patient Details](assets/screenshots/patient_details.png)
-
-- **Services and Billing Details**: View detailed service and billing information for each patient.
-  ![Services and Billing Details](assets/screenshots/services_details.png)
-
----
--->
 
 ## 🚀 **Project Overview**
 
@@ -44,6 +28,22 @@ To address this challenge, I developed this app as an interim solution. The app 
 - **Firebase Hosting** – for deploying the **web version** of the app.
 
 ---
+
+## 🖼 **Screenshots**
+
+Here are some screenshots showcasing the app's features:
+
+- **Search Screen**: The user can search for patients by ID, Name, or Phone Number.
+  ![Search Screen]<img src="searchScreen.png" width="275">
+<!--
+- **Patient Details Screen**: View detailed patient information.
+  ![Patient Details](assets/screenshots/patient_details.png)
+
+- **Services and Billing Details**: View detailed service and billing information for each patient.
+  ![Services and Billing Details](assets/screenshots/services_details.png)
+
+---
+-->
 <!--
 
 ## 🌍 **Live Demo**
